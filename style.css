@@ -1,0 +1,29 @@
+ body{
+    background-color: blue;
+ }
+.innerDiv{
+    margin-top: 10vh;
+    height: 80vh;
+    width: 80vw;
+    margin-left: 9vw;
+    border: 2px solid black;
+    /* background-image: linear-gradient(60deg, rgb(50, 123, 50), rgb(137, 98, 98) rgb(68, 189, 68) rgb(165, 95, 95)); */
+    background-color: greenyellow;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: cadetblue;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 12px 1px white;
+    
+    /* text-align: center; */
+}
